@@ -8,6 +8,7 @@ window.tk_setPalette(background="red")  # Set the theme to 'clam' for a modern l
 
 # Add a label with the message
 label = tk.Label(window, text="Hello, World!", font=("Arial", 16))
+label = tk.Label(window, text="Hello, Ranabir!", font=("Arial", 24))
 label.pack(pady=20)
 
 # Start the GUI event loop
